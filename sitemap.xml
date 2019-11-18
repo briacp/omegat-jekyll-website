@@ -13,9 +13,6 @@
 <loc>http://omegat.org/howtos/compiling_from_source</loc>
 </url>
 <url>
-<loc>http://omegat.org/contact</loc>
-</url>
-<url>
 <loc>http://omegat.org/documentation</loc>
 </url>
 <url>
@@ -71,6 +68,9 @@
 </url>
 <url>
 <loc>http://omegat.org/sponsorship</loc>
+</url>
+<url>
+<loc>http://omegat.org/support</loc>
 </url>
 <url>
 <loc>http://omegat.org/howtos/text_export</loc>
@@ -209,5 +209,9 @@
 <url>
 <loc>http://omegat.org/files/guide/OmegaT_for_Beginners_zh_TW.pdf</loc>
 <lastmod>2018-08-30T12:25:15+02:00</lastmod>
+</url>
+<url>
+<loc>http://omegat.org/telegram.html</loc>
+<lastmod>2019-11-18T14:13:06+01:00</lastmod>
 </url>
 </urlset>
