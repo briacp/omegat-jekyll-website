@@ -11,3 +11,4 @@ js/jquery.min.js
 !/sitemap.xml
 !/feed.xml
 !/robots.txt
+*.bak

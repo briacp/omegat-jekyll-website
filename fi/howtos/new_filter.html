@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>Howto - Creating a new file filter - OmegaT</title>
+  <title>Miten tämä tehdään? – Uuden tiedostosuodattimen luonti - OmegaT</title>
 
   
   <link rel="apple-touch-icon" sizes="180x180"    href="/apple-touch-icon.png">
@@ -24,10 +24,10 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="/assets/omegat-6dcd06a1682e6bc12fe48816bdf2762335b83ed431923a85f1d1c1fdea8b8de8.js" type="text/javascript"></script>
-  <script src="/assets/rangeslider-b2ba91ed7ef4ee9653cc1c527a20c790651f1076c0daf144c8f93a8adddef826.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/assets/omegat-6dcd06a1682e6bc12fe48816bdf2762335b83ed431923a85f1d1c1fdea8b8de8.js"></script>
+  <script type="text/javascript" src="/assets/rangeslider-b2ba91ed7ef4ee9653cc1c527a20c790651f1076c0daf144c8f93a8adddef826.js"></script>
 
-  <meta name="description" content="OmegaT is a free open-source translation memory application for professional translators written in Java.">
+  <meta name="description" content="OmegaT on vapaa käännöstyökalu ammattimaisille kääntäjille. Se on open source -pohjainen ja kirjoitettu Java-kielellä.">
 
   <link rel="canonical" href="http://omegat.org/fi/howtos/new_filter">
 
@@ -43,10 +43,10 @@
 
   <!-- SEO tags -->
   
-  <meta property="og:title"       content="Howto - Creating a new file filter - OmegaT" />
-  <meta property="og:description" content="OmegaT is a free open-source translation memory application for professional translators written in Java." />
+  <meta property="og:title"       content="Miten tämä tehdään? – Uuden tiedostosuodattimen luonti - OmegaT" />
+  <meta property="og:description" content="OmegaT on vapaa käännöstyökalu ammattimaisille kääntäjille. Se on open source -pohjainen ja kirjoitettu Java-kielellä." />
   <meta property="og:url"         content="http://omegat.org/fi/howtos/new_filter" />
-  <meta property="og:site_name"   content="OmegaT - The Free Translation Memory Tool" />
+  <meta property="og:site_name"   content="OmegaT – vapaa käännöstyökalu" />
   
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@OmegaTOfficial" />
@@ -56,8 +56,8 @@
     "@type": "WebSite",
     "name": "",
     "url": "http://omegat.org/fi",
-    "headline": "Howto - Creating a new file filter",
-    "description": "OmegaT is a free open-source translation memory application for professional translators written in Java.",
+    "headline": "Miten tämä tehdään? – Uuden tiedostosuodattimen luonti",
+    "description": "OmegaT on vapaa käännöstyökalu ammattimaisille kääntäjille. Se on open source -pohjainen ja kirjoitettu Java-kielellä.",
     "publisher": {
       "@type": "Organization",
       "logo": {
@@ -89,18 +89,20 @@
     </div>
     <div class="collapse navbar-collapse navbar-right" id="omegat-menu">
       <ul class="nav navbar-nav">
-        <li><a href="/fi/download">OmegaT:n lataaminen</a></li>
+        <li><a href="/fi/download">Lataa</a></li>
       </ul>
       <ul class="nav navbar-nav">
         
-        <li><a href="/fi/resources">OmegaT:n muut resurssit</a></li>
+        <li><a href="/fi/support">Tuki</a></li>
+        
+        <li><a href="/fi/resources">Resurssit</a></li>
         <li><a href="/fi/documentation">Dokumentaatio</a></li>
       </ul>
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <span data-toggle="popover" class="language-popover" data-trigger="manual" data-container="body" title="-" data-content="-" data-placement="bottom">
-              Languages<span class="caret"><!----></span> <span class="sr-only">(current)</span>
+              Kielet<span class="caret"><!----></span> <span class="sr-only">(current)</span>
             </span>
           </a>
           <ul class="dropdown-menu languages">
@@ -171,7 +173,7 @@
 </nav>
 
 
-    <div class="jumbotron jumbo-page titles-howtos-new_filter"><h1>Howto - Creating a new file filter</h1></div>
+    <div class="jumbotron jumbo-page titles-howtos-new_filter"><h1>Miten tämä tehdään? – Uuden tiedostosuodattimen luonti</h1></div>
         
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html>
@@ -535,7 +537,7 @@ res.addFilter(new OneFilter(new AbiwordFilter(), false)); </span><br>
   </a>
   <div class="container-fluid">
       <div class="col-sm-offset-3 col-sm-2 footer-column">
-        <h4>Connect</h4>
+        <h4>Ota yhteyttä</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
@@ -552,25 +554,25 @@ res.addFilter(new OneFilter(new AbiwordFilter(), false)); </span><br>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
-            <li><a href="/fi/documentation#manual"><span class="glyphicon glyphicon-book"></span> Manual</a></li>
-            <li><a href="/fi/documentation#tutorials"><span class="glyphicon glyphicon-user"></span> Tutorials</a></li>
-            <li><a href="/fi/reviews"><span class="glyphicon glyphicon-heart"></span> Arvioita OmegaT:stä</a></a></li>
+            <li><a href="/fi/documentation#manual"><span class="glyphicon glyphicon-book"></span> Käyttöopas</a></li>
+            <li><a href="/fi/documentation#tutorials"><span class="glyphicon glyphicon-user"></span> Opasohjelmat</a></li>
+            <li><a href="/fi/reviews"><span class="glyphicon glyphicon-heart"></span> Arvioinnit</a></li>
           </ul>
         </div>
       </div>
       <div class="col-sm-2 footer-column">
-        <h4>The OmegaT Project</h4>
+        <h4>OmegaT-projekti</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
             <li>
-            <a href="/fi/support"><span class="glyphicon glyphicon-envelope"></span> Yhteystiedot ja tuki</a>
+            <a href="/fi/support"><span class="glyphicon glyphicon-envelope"></span> Tuki</a>
             </li>
             <li>
-            <a href="/fi/about"><span class="glyphicon glyphicon-question-sign"></span> Tekijöiden esittely</a>
+            <a href="/fi/about"><span class="glyphicon glyphicon-question-sign"></span> Tietoja</a>
             </li>
             <li>
-            <a href="/fi/philosophy"><span class="glyphicon glyphicon-console"></span> Ajattelutapa</a>
+            <a href="/fi/philosophy"><span class="glyphicon glyphicon-console"></span> Filosofia</a>
             </li>
           </ul>
         </div>
