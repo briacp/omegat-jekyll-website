@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>Howto - Translating OmegaT into your language - OmegaT</title>
+  <title>Guía práctica - Traducir OmegaT a su idioma (en inglés) - OmegaT</title>
 
   
   <link rel="apple-touch-icon" sizes="180x180"    href="/apple-touch-icon.png">
@@ -27,7 +27,7 @@
   <script src="/assets/omegat-6dcd06a1682e6bc12fe48816bdf2762335b83ed431923a85f1d1c1fdea8b8de8.js" type="text/javascript"></script>
   <script src="/assets/rangeslider-b2ba91ed7ef4ee9653cc1c527a20c790651f1076c0daf144c8f93a8adddef826.js" type="text/javascript"></script>
 
-  <meta name="description" content="OmegaT is a free open-source translation memory application for professional translators written in Java.">
+  <meta name="description" content="OmegaT es una aplicación de memorias de traducción gratuita y de código abierto para traductores profesionales escrita en Java.">
 
   <link rel="canonical" href="http://omegat.org/es/howtos/localizing_omegat">
 
@@ -43,10 +43,10 @@
 
   <!-- SEO tags -->
   
-  <meta property="og:title"       content="Howto - Translating OmegaT into your language - OmegaT" />
-  <meta property="og:description" content="OmegaT is a free open-source translation memory application for professional translators written in Java." />
+  <meta property="og:title"       content="Guía práctica - Traducir OmegaT a su idioma (en inglés) - OmegaT" />
+  <meta property="og:description" content="OmegaT es una aplicación de memorias de traducción gratuita y de código abierto para traductores profesionales escrita en Java." />
   <meta property="og:url"         content="http://omegat.org/es/howtos/localizing_omegat" />
-  <meta property="og:site_name"   content="OmegaT - The Free Translation Memory Tool" />
+  <meta property="og:site_name"   content="OmegaT - La herramienta TAO gratuita" />
   
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@OmegaTOfficial" />
@@ -56,8 +56,8 @@
     "@type": "WebSite",
     "name": "",
     "url": "http://omegat.org/es",
-    "headline": "Howto - Translating OmegaT into your language",
-    "description": "OmegaT is a free open-source translation memory application for professional translators written in Java.",
+    "headline": "Guía práctica - Traducir OmegaT a su idioma (en inglés)",
+    "description": "OmegaT es una aplicación de memorias de traducción gratuita y de código abierto para traductores profesionales escrita en Java.",
     "publisher": {
       "@type": "Organization",
       "logo": {
@@ -89,18 +89,20 @@
     </div>
     <div class="collapse navbar-collapse navbar-right" id="omegat-menu">
       <ul class="nav navbar-nav">
-        <li><a href="/es/download">Descargar OmegaT</a></li>
+        <li><a href="/es/download">Descargar</a></li>
       </ul>
       <ul class="nav navbar-nav">
         
-        <li><a href="/es/resources">Otros recursos de OmegaT</a></li>
-        <li><a href="/es/documentation">Documentation</a></li>
+        <li><a href="/es/support">Soporte</a></li>
+        
+        <li><a href="/es/resources">Recursos</a></li>
+        <li><a href="/es/documentation">Documentación</a></li>
       </ul>
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <span data-toggle="popover" class="language-popover" data-trigger="manual" data-container="body" title="-" data-content="-" data-placement="bottom">
-              Languages<span class="caret"><!----></span> <span class="sr-only">(current)</span>
+              Idiomas<span class="caret"><!----></span> <span class="sr-only">(current)</span>
             </span>
           </a>
           <ul class="dropdown-menu languages">
@@ -173,105 +175,120 @@
 </nav>
 
 
-    <div class="jumbotron jumbo-page titles-howtos-localizing_omegat"><h1>Howto - Translating OmegaT into your language</h1></div>
+    <div class="jumbotron jumbo-page titles-howtos-localizing_omegat"><h1>Guía práctica - Traducir OmegaT a su idioma (en inglés)</h1></div>
         
     <div class="container">
 
 
 
-<h3>Traducción: observaciones generales</h3>
+<h3>Translation: general remarks</h3>
 
 
-<p>En adelante, «nosotros» hace referencia al equipo del proyecto de OmegaT. El equipo del proyecto de OmegaT no es una empresa ni una entidad jurídica formal, es simplemente un grupo de voluntarios involucrados con el proyecto de OmegaT.</p>
+<p>"We" refers below to the OmegaT project team. The OmegaT project team is not a company or formal legal body, just a group of volunteers involved in the OmegaT project.</p>
 
 
-<p>OmegaT es un programa de memorias de traducción de código abierto y gratuito. La interfaz de usuario y la documentación se escribieron originalmente en inglés. Ya que el programa está pensado para traductores de todo el mundo y no solo de los países angloparlantes, resulta apropiado que la documentación (y, si es posible, el programa en sí) esté disponible en otros idiomas. Sin embargo, al no ser un proyecto comercial, no tenemos presupuesto para encargar las traducciones. En lugar de esto, las personas implicadas en el proyecto de OmegaT esperan que las traducciones las proporcionen en primer lugar y sobre todo los traductores que han probado OmegaT y están convencidos de su valor para la comunidad de la traducción como conjunto.</p>
+<p>OmegaT is a free, open-source translation memory program. The user interface and documentation were originally written in English. As the program is intended for translators throughout the world and not just in English-speaking countries, it is appropriate that the documentation (and, if possible, the program itself) be available in other languages. However, since we are not a commercial project, we have no budget for the commissioning of translations. Instead, those involved in the OmegaT project hope that translations will be provided first and foremost by translators who have tried OmegaT and are convinced of its value to the translation community as a whole.</p>
 
-<h3>La labor de traducción</h3>
+<h3>The translation work</h3>
 
-<p>Por el momento, el material que se debe traducir comprende:</p>
+<p>At the time of writing, the material to be translated comprises:</p>
 
 <p>
 
-* La interfaz de usuario (menús, etc.)<br/> * El manual de usuario (muy completo)<br/> * La guía de inicio rápido (una introducción corta para OmegaT)<br/> * El archivo Léame (un documento que contiene información general sobre OmegaT)<br/> * El tutorial para principiantes<br/> * Las páginas web de OmegaT (probablemente, donde está leyendo esto)
+* The user interface (menus etc.)<br/>
+
+* The user manual (very comprehensive)<br/>
+
+* The Instant Start guide (a short introduction to using OmegaT)<br/>
+
+* The readme file (a document that contains general information about OmegaT)<br/>
+
+* The Beginner's Tutorial<br/>
+
+* The OmegaT web pages (probably where you are reading this)
 
 </p>
 
-<p>Los traductores son libres de abordar la cantidad de trabajo que deseen. En concreto, el manual de usuario principal puede tomar alrededor de dos semanas para su traducción, y varios traductores pueden querer compartir el trabajo.</p>
+<p>Translators are free to tackle as much or as little of the work as they wish. In particular, the main user manual is likely to take around two weeks to translate, and several translators may wish to share the work.</p>
 
-<h3>Procedimiento</h3>
+<h3>Procedure</h3>
 
-<p>1. Contacte con el coordinador pertinente para la labor de traducción:<br/> Para la interfaz de usuario, el manual de usuario, la guía de inicio rápido y/o el archivo Léame, contacte con el <a href="mailto:localization@omegat.org">Coordinador de localización de OmegaT</a>.<br/> Si desea traducir el sitio web de OmegaT y/o el tutorial para principiantes, contacte con el <a href="mailto:webmaster@omegat.org">Administrador web de OmegaT</a>.
+<p>1. Contact the relevant co-ordinator for the translation work:<br/>
 
-<p>2. Únase al <a href="https://sourceforge.net/projects/omegat/lists/omegat-users">grupo de usuarios de OmegaT</a> (conocido también como «OmT»). Durante el proceso de suscripción, tendrá que enviar un mensaje corto a los moderadores del grupo para permitirles distinguir los usuarios reales de los spammers.</p>
+For the user interface, user manual, Instant Start guide and/or the readme file, please contact the <a href="mailto:localization@omegat.org">OmegaT Localization Co-ordinator</a>.<br/>
 
-<p>Después de unirse, visite el <a href="https://groups.yahoo.com/neo/groups/OmegaT/database">Plan de localización de OmegaT (OmegaT Localization Plan)</a>. Este plan muestra la labor de traducción/localización que ya se ha llevado a cabo en OmegaT y qué se encuentra en progreso actualmente. Si una parte adecuada de la labor no se ha empezado aún en su idioma, puede hacer una entrada en el plan para indicar que ha asumido la responsabilidad de hacerla. El objetivo del plan es evitar que dos o más traductores realicen la misma traducción sin saberlo (duplicación del esfuerzo). <strong>Para evitar que dos o más traductores realicen la misma traducción al mismo idioma al mismo tiempo, es muy importante hacer una entrada en el plan de localización cuando empiece a trabajar en una traducción.</strong></p>
+If you wish to translate the OmegaT website and/or the Beginner's Tutorial, please contact the <a href="mailto:webmaster@omegat.org">OmegaT Website Manager</a>.
 
-<p>3. Aunque no es esencial, le recomendamos que también se una a la <a href="https://lists.sourceforge.net/lists/listinfo/omegat-l10n">lista de correo de localizadores de OmegaT</a> (conocida también como «OmT-l10n»).</p>
+<p>2. Join the <a href="https://sourceforge.net/projects/omegat/lists/omegat-users">OmegaT user group</a> (also known as "OmT"). During the subscription process, you will have to send a short message to the group moderators: this is to enable them to distinguish genuine users from spammers.</p>
 
-<p>4. Descargue los archivos para su traducción.</p>
+<p>After joining, visit the <a href="https://groups.yahoo.com/neo/groups/OmegaT/database">OmegaT Localization Plan</a>. This plan shows what translation/localization work has already been done on OmegaT, and what work is currently in progress. If a suitable piece of the work for your language has not yet been started, you can make an entry in the plan to indicate that you have assumed responsibility for it. The purpose of the plan is to prevent two or more translators from working on the same translation without being aware of it (duplication of effort). <strong>In order to prevent two or more translators from working on the same language at the same time, it is therefore very important that you make an entry in the localization plan when you begin work on a translation.</strong></p>
 
-<p>Para el <strong>programa OmegaT y la documentación</strong>, existe tanto el <a
+<p>3. Although not essential, we recommend that you also join the <a href="https://lists.sourceforge.net/lists/listinfo/omegat-l10n">OmegaT localizers' mailing list</a> (also known as "OmT-l10n").</p>
+
+<p>4. Download the files for translation.</p>
+
+<p>For the <strong>OmegaT program and documentation</strong>, these are either the <a
 href="http://sourceforge.net/projects/omegat/files/Other%20-%20Localization%20projects/OmegaT%203.6.0 update 5/OmegaT_3.6.0_05_L10N_Full.zip"
->paquete «completo»</a> como el <a
+>"Full" package</a> or the <a
 href="http://sourceforge.net/projects/omegat/files/Other%20-%20Localization%20projects/OmegaT%203.6.0 update 5/OmegaT_3.6.0_05_L10N_Minimal.zip"
->paquete «mínimo»</a>.</p>
+>"Minimal" package</a>.</p>
 
-<p>El paquete completo contiene el manual de usuario, la guía de inicio rápido, el lote de recursos de la interfaz de usuario y el archivo Léame. El paquete mínimo contiene los mismos archivos que el paquete completo, a excepción del manual de usuario principal. No es necesario que traduzca un paquete completo; puede, por ejemplo, traducir solo la interfaz de usuario (Bundle.properties), o solo el tutorial de inicio rápido.</p>
+<p>The full package contains the user manual, the instant start manual, the user interface resource bundle and the readme file. The minimal package contains the same files as the full package, except for the main user manual. You do not have to translate a complete package; you can, for instance, translate just the user interface (Bundle.properties), or just the instant start tutorial.</p>
 
-<p>Si desea traducir las <strong>páginas web de OmegaT</strong>, descargue el <a href="/files/omt_website.zip">paquete de localización del sitio web</a>. (Nota: estos son los archivos en inglés. Si prefiere traducir desde otro idioma al que ya se haya localizado OmegaT, contacte con el <a href="mailto:webmaster@omegat.org">administrador de la web de OmegaT</a>).</p>
+<p>If you wish to translate the <strong>OmegaT web pages</strong>, download the <a href="/files/omt_website.zip">website localization package</a>. (Note: these are the English files. If you prefer to translate from a different language into which OmegaT has already been localized, please&nbsp;contact the <a href="mailto:webmaster@omegat.org">OmegaT webmaster</a>.)</p>
 
-<p>Las localizaciones de la interfaz de usuario de OmegaT y la documentación se suelen actualizar cuando se lanza una nueva versión de OmegaT. </p><!--p>The OmegaT website is a continual work in progress. You can <a href="./website_file_list.php">view a list of the OmegaT website pages showing when each page was last updated here</a-->
+<p>Localizations of the OmegaT user interface and documentation are generally updated in step with new releases of OmegaT. </p>
 
-.
+<!--p>The OmegaT website is a continual work in progress. You can <a href="./website_file_list.php">view a list of the OmegaT website pages showing when each page was last updated here</a-->.
 
+<p>The OmegaT website includes files in HTML and, as of 2011, PHP format. To translate the latter in OmegaT, you must register the .php extension with the HTML and XHTML filter as follows:</p>
 
+<p>Options > File Filters > Select "HTML and XHTML files" > Edit > Add > Then enter "*.php" in the "Source Filename Pattern" column.</p>
 
-<p>El sitio web de OmegaT incluye archivos en HTML y, desde 2011, formato PHP. Para traducir esto último en OmegaT, debe registrar la extensión .php con el filtro HTML y XHTML de la siguiente manera:</p>
+<p>Finally, there is the <strong>Beginner's Tutorial</strong>, available <a href="/files/guide/OmegaT_for_Beginners.odt">here</a>.</p>
 
-<p>Opciones &gt; Filtros de archivo... &gt; Seleccione «HTML y XHTML &gt; Editar &gt; Añadir &gt; Después, introduzca «*.php» en la columna «Patrón del nombre del archivo original».</p>
+<p>5. There may be older versions of the documentation and/or translation memories (TMX files) available for your language which are useful to your translation. Translation memory (TMX) files of older localizations of OmegaT, the documentation and the website can be found in the <a href="http://groups.yahoo.com/neo/groups/omegat/files/3- Localization files/Translation memory repository/">"Files" section of the online user group</a>. It is also worth asking on the <a href="https://lists.sourceforge.net/lists/listinfo/omegat-l10n">localizers' list</a> (OmT-l10n) whether anyone has any reference material which might facilitate your translation.</p>
 
-<p>Por último, existe un <strong>tutorial para principiantes</strong>, disponible <a href="/files/guide/OmegaT_for_Beginners.odt">aquí</a>.</p>
+<p>6. Translate the files you have chosen. Needless to say, we would prefer you to use OmegaT for the OmegaT localization work. You can however use other software if you wish.</p>
 
-<p>5. Es posible que haya versiones antiguas de la documentación y/o de las memorias de traducción (archivos TMX) disponibles en su idioma que le resultarán de utilidad para su traducción. Los archivos de memoria de traducción (TMX) de las localizaciones antiguas de OmegaT, la documentación y el sitio web pueden encontrarse en la <a href="http://groups.yahoo.com/neo/groups/omegat/files/3- Localization files/Translation memory repository/">sección «Files» del grupo de usuarios en línea</a>. También merece la pena preguntar en la <a href="https://lists.sourceforge.net/lists/listinfo/omegat-l10n">lista de localizadores</a> (OmT-l10n) si alguien tiene material de referencia que pudiera facilitar su traducción.</p>
+<p>After downloading the zip archive of the full or minimal package or the website localization package, unpack the archive. For the full and minimal packages (user interface and documentation), you do not need to create an OmegaT project as you normally would in OmegaT: when unpacked, the files for localization of the OmegaT program are a ready-to-use OmegaT project. (This is not the case for the website localization files.)</p>
 
-<p>6. Traduzca los archivos que ha elegido. No hace falta decir que preferiríamos que usara OmegaT para la labor de localización de OmegaT. No obstante, puede usar otro software si así lo desea.</p>
+<p>You have complete freedom in how you translate. You can modify, correct, add or delete information at your own discretion. If you have any questions, the <a href="https://lists.sourceforge.net/lists/listinfo/omegat-l10n">OmT-l10n list</a> is the best place to post them.</p>
 
-<p>Después de descargar el archivo zip con el paquete completo o mínimo o el paquete de localización del sitio web, descomprima el archivo. En el caso de los paquetes completo y mínimo (interfaz de usuario y documentación), no tiene que crear un proyecto de OmegaT como haría normalmente: al descomprimirlos, los archivos para la localización del programa OmegaT son un proyecto de OmegaT listo para usar. (Este no es el caso de los archivos para la localización del sitio web).</p>
+<p>If the document you are translating contains it, please do <strong>not</strong>&nbsp;translate
+the GPL (GNU Public License) or the GFDL (GNU Free Documentation License). Firstly, only the original English is legally valid. A translation may also be provided for information, but it has no legal validity. Secondly, unless yours is a very uncommon language, both documents have in all probability already been translated. Search the web and you will probably find the translations.</p>
 
-<p>Tiene total libertad para traducir como quiera. Puede modificar, corregir, añadir o eliminar información a su entera discreción. Si tiene preguntas, la <a href="https://lists.sourceforge.net/lists/listinfo/omegat-l10n">lista OmT-l10n</a> es el mejor lugar para publicarlas.</p>
+<p>Please keep translations of files in their original format, and do not change the file names. The formatting is retained automatically if you use OmegaT. We are grateful for all translations, but it simplifies our work considerably if files are returned in the same format (and not as Word files, for example).</p>
 
-<p>Si el documento que está traduciendo las contiene, <strong>no</strong>&nbsp;traduzca la GPL (Licencia Pública General de GNU, por sus siglas en inglés, GNU Public License) ni la GFDL (Licencia de documentación libre de GNU, por sus siglas en inglés, GNU Free Documentation License). En primer lugar, solo el texto original en inglés tiene validez legal. Se puede proporcionar una traducción a modo de información, pero no tiene validez legal. En segundo lugar, a menos que su idioma sea muy poco común, muy probablemente ya se habrán traducido los dos documentos. Busque en internet y seguramente encontrará las traducciones.</p>
+<p>7. Test your translation (optional).</p>
 
-<p>Le rogamos que mantenga la traducción de los archivos en su formato original y que no cambie los nombres de archivo. El formato se mantiene automáticamente si usa OmegaT. Agradecemos todas las traducciones, pero si nos devuelve los archivos en el mismo formato (y no como archivos de Word, por ejemplo), simplifica bastante nuestro trabajo.</p>
+<p>To test the user interface:</p>
 
-<p>7. Pruebe su traducción (opcional).</p>
+<p>Launch OmegaT from the command line (MS-DOS window) with the following commands (if you are unsure how to do this, refer to the OmegaT user manual)</p>
 
-<p>Para probar la interfaz de usuario:</p>
+<p>&nbsp; &nbsp; &nbsp;cd [full path to OmegaT]<br/>
 
-<p>Ejecute OmegaT desde la línea de comandos (ventana MS-DOS) con los siguientes comandos (si no está seguro de cómo hacerlo, consulte el manual de usuario de OmegaT):</p>
+&nbsp; &nbsp; &nbsp;java -jar OmegaT.jar resource-bundle=[name of bundle with full path]</p>
 
-<p>&nbsp; &nbsp; &nbsp;cd [ruta completa a OmegaT]<br/> &nbsp; &nbsp; &nbsp;java -jar OmegaT.jar resource-bundle=[nombre del lote con la ruta completa]</p>
+<p>where [full path to OmegaT] is the full path to the folder containing the OmegaT program, and [name of bundle with full path] is the name of your translation of the resource bundle (bundle_en.properties, unless you have changed the name) including the full path to its location.</p>
 
-<p>[ruta completa a OmegaT] es la ruta completa a la carpeta que contiene el programa OmegaT y [nombre del lote con la ruta completa] es el nombre de su traducción del lote de recursos (bundle_en.properties, a no ser que haya cambiado el nombre) y la ruta completa a su ubicación.</p>
+<p>To test display of the Instant Start Guide at launch:</p>
 
-<p>Para probar la visualización de la guía de inicio rápido al inicio:</p>
+<p>In the /docs/ folder of the OmegaT program, create a sub-folder with the ISO code of your operating system language (rename the existing folder temporarily if it already exists), and copy the manual into this folder. Then launch OmegaT normally. (If you have translated into a language which is not your operating system language, see below, "How OmegaT handles localized versions".)</p>
 
-<p>En la carpeta /docs/ del programa OmegaT, cree una subcarpeta con el código ISO del idioma de su sistema operativo (cambie temporalmente el nombre de la carpeta si ya existe) y copie el manual dentro de esta carpeta. Después, ejecute OmegaT con normalidad. (Si ha traducido a un idioma que no es el de su sistema operativo, consulte cómo administra OmegaT las versiones localizadas).</p>
+<p>8. Produce a screenshot of OmegaT in your language (after translating the user interface). This is also optional, but if you have been able to launch OmegaT with your localized bundle (see above), it will enhance the quality of your translation. To produce a screenshot, launch OmegaT and create a suitable screen for a screenshot, such as the "Create new project" dialog showing typical paths.</p>
 
-<p>8. Haga una captura de pantalla de OmegaT en su idioma (después de traducir la interfaz de usuario). También es opcional, pero si ha podido ejecutar OmegaT con su lote localizado (consulte más arriba), mejorará la calidad de su traducción. Para hacer una captura de pantalla, ejecute OmegaT y cree una pantalla apropiada para una captura, como el diálogo «Crear nuevo proyecto» que muestra las ubicaciones de archivo habituales.</p>
+<p>Choose the .png file type</p>
 
-<p>Elija el tipo de archivo .png</p>
+<p>Name the image NewImage.png</p>
 
-<p>Ponga a la imagen el nombre NewImage.png</p>
+<p>9. Deliver your file to the localization co-ordinator, who will pass it on to the development team for inclusion in the next release of OmegaT (user interface and documentation) or upload it to the website (website pages). If you used OmegaT or another CAT tool for the work, please also upload your translation memory (TMX file) to the <a href="http://groups.yahoo.com/neo/groups/omegat/files/3- Localization files/Translation memory repository/">translation memory repository in the online user group</a>. This will greatly simplify updating of your translation in the future. Please do NOT deliver your entire OmegaT project file to the localization coordinator (he does not need to receive multiple copies of the entire project). Rather, create two separate .zip or tar.gz files, one containing the target documents only, and the other containing the tmx files.</p>
 
-<p>9. Envíe el archivo al coordinador de localización, que se lo pasará al equipo de desarrollo para incluirlo en la siguiente versión de OmegaT (interfaz de usuario y documentación) o subirlo al sitio web (páginas del sitio web). Si ha usado OmegaT u otra herramienta TAO para realizar la traducción, suba también su memoria de traducción (archivo TMX) al  <a href="http://groups.yahoo.com/neo/groups/omegat/files/3- Localization files/Translation memory repository/">repositorio de memorias de traducción del grupo de usuarios en línea</a>. Eso simplificará de manera considerable la actualización de su traducción en el futuro. Le rogamos que NO envíe el archivo de proyecto de OmegaT entero al coordinador de localización (no es necesario que reciba varias copias del proyecto entero). En lugar de eso, cree dos archivos .zip o tar.gz separados, uno que solo contenga los documentos meta y el otro que contenga los archivos tmx.</p>
+<p>10. Don't forget to <strong>update the OmegaT Localization Plan</strong> (see Step 2 of the procedure) to show that you have completed translation of a particular document/version. Equally, if you abandon the translation work for any reason, please update your entry in the plan to show this. This enables the document concerned to be released for translation by another translator. If you discontinue before completing the translation, please do create the tmx files for the you have done and upload them to the translation memory repository.</p>
 
-<p>10. No olvide <strong>actualizar el plan de localización de OmegaT</strong> (consulte el paso 2 del procedimiento) para mostrar que ha terminado la traducción de un documento o versión concretos. Del mismo modo, si abandona la labor de traducción por algún motivo, actualice su entrada del plan para mostrarlo. Esto permite que otro traductor pueda traducir el documento en cuestión. Si abandona antes de completar la traducción, cree los archivos tmx para el fragmento que haya hecho y súbalos al repositorio de memorias de traducción.</p>
+<h3>Copyright information</h3>
 
-<h3>Información sobre el copyright</h3>
-
-<p>La mayoría de la documentación de OmegaT tiene licencia para volver a usarse conforme a la Licencia Pública General de GNU (GPL) o la Licencia de documentación libre de GNU (GFDL). Las páginas web no tienen licencia para volver a usarse. Esta información tiene por qué concernirle a no ser que esté especialmente interesado en asuntos de copyright. Se le dará crédito como autor de su trabajo y se le nombrará titular conjunto de copyright.</p>
+<p>Most of the OmegaT documentation is licensed for re-use under the GNU Public License (GPL) or GNU Free Documentation License (GFDL). The web pages are not licensed for re-use. None of this need concern you unless you are particularly interested in copyright issues. You will be credited as the author of your work and named as joint copyright holder.</p>
 
 <p>Copyright Marc Prior 2009-2014</p>
 
@@ -287,7 +304,7 @@ href="http://sourceforge.net/projects/omegat/files/Other%20-%20Localization%20pr
   </a>
   <div class="container-fluid">
       <div class="col-sm-offset-3 col-sm-2 footer-column">
-        <h4>Connect</h4>
+        <h4>Conecte con nosotros</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
@@ -300,29 +317,29 @@ href="http://sourceforge.net/projects/omegat/files/Other%20-%20Localization%20pr
         </div>
       </div>
       <div class="col-sm-2 footer-column">
-        <h4>Documentation</h4>
+        <h4>Documentación</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
             <li><a href="/es/documentation#manual"><span class="glyphicon glyphicon-book"></span> Manual</a></li>
-            <li><a href="/es/documentation#tutorials"><span class="glyphicon glyphicon-user"></span> Tutorials</a></li>
-            <li><a href="/es/reviews"><span class="glyphicon glyphicon-heart"></span> Reseñas de OmegaT</a></a></li>
+            <li><a href="/es/documentation#tutorials"><span class="glyphicon glyphicon-user"></span> Tutoriales</a></li>
+            <li><a href="/es/reviews"><span class="glyphicon glyphicon-heart"></span> Reseñas</a></li>
           </ul>
         </div>
       </div>
       <div class="col-sm-2 footer-column">
-        <h4>The OmegaT Project</h4>
+        <h4>El proyecto OmegaT</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
             <li>
-            <a href="/es/support"><span class="glyphicon glyphicon-envelope"></span> Contacto y soporte</a>
+            <a href="/es/support"><span class="glyphicon glyphicon-envelope"></span> Soporte</a>
             </li>
             <li>
-            <a href="/es/about"><span class="glyphicon glyphicon-question-sign"></span> Quienes somos</a>
+            <a href="/es/about"><span class="glyphicon glyphicon-question-sign"></span> Sobre OmegaT</a>
             </li>
             <li>
-            <a href="/es/philosophy"><span class="glyphicon glyphicon-console"></span> Philosophy</a>
+            <a href="/es/philosophy"><span class="glyphicon glyphicon-console"></span> Filosofía</a>
             </li>
           </ul>
         </div>

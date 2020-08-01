@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>Howto - Creating a new file filter - OmegaT</title>
+  <title>Guía práctica - Crear un nuevo filtro de archivo (en inglés) - OmegaT</title>
 
   
   <link rel="apple-touch-icon" sizes="180x180"    href="/apple-touch-icon.png">
@@ -27,7 +27,7 @@
   <script src="/assets/omegat-6dcd06a1682e6bc12fe48816bdf2762335b83ed431923a85f1d1c1fdea8b8de8.js" type="text/javascript"></script>
   <script src="/assets/rangeslider-b2ba91ed7ef4ee9653cc1c527a20c790651f1076c0daf144c8f93a8adddef826.js" type="text/javascript"></script>
 
-  <meta name="description" content="OmegaT is a free open-source translation memory application for professional translators written in Java.">
+  <meta name="description" content="OmegaT es una aplicación de memorias de traducción gratuita y de código abierto para traductores profesionales escrita en Java.">
 
   <link rel="canonical" href="http://omegat.org/es/howtos/new_filter">
 
@@ -43,10 +43,10 @@
 
   <!-- SEO tags -->
   
-  <meta property="og:title"       content="Howto - Creating a new file filter - OmegaT" />
-  <meta property="og:description" content="OmegaT is a free open-source translation memory application for professional translators written in Java." />
+  <meta property="og:title"       content="Guía práctica - Crear un nuevo filtro de archivo (en inglés) - OmegaT" />
+  <meta property="og:description" content="OmegaT es una aplicación de memorias de traducción gratuita y de código abierto para traductores profesionales escrita en Java." />
   <meta property="og:url"         content="http://omegat.org/es/howtos/new_filter" />
-  <meta property="og:site_name"   content="OmegaT - The Free Translation Memory Tool" />
+  <meta property="og:site_name"   content="OmegaT - La herramienta TAO gratuita" />
   
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@OmegaTOfficial" />
@@ -56,8 +56,8 @@
     "@type": "WebSite",
     "name": "",
     "url": "http://omegat.org/es",
-    "headline": "Howto - Creating a new file filter",
-    "description": "OmegaT is a free open-source translation memory application for professional translators written in Java.",
+    "headline": "Guía práctica - Crear un nuevo filtro de archivo (en inglés)",
+    "description": "OmegaT es una aplicación de memorias de traducción gratuita y de código abierto para traductores profesionales escrita en Java.",
     "publisher": {
       "@type": "Organization",
       "logo": {
@@ -89,18 +89,20 @@
     </div>
     <div class="collapse navbar-collapse navbar-right" id="omegat-menu">
       <ul class="nav navbar-nav">
-        <li><a href="/es/download">Descargar OmegaT</a></li>
+        <li><a href="/es/download">Descargar</a></li>
       </ul>
       <ul class="nav navbar-nav">
         
-        <li><a href="/es/resources">Otros recursos de OmegaT</a></li>
-        <li><a href="/es/documentation">Documentation</a></li>
+        <li><a href="/es/support">Soporte</a></li>
+        
+        <li><a href="/es/resources">Recursos</a></li>
+        <li><a href="/es/documentation">Documentación</a></li>
       </ul>
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <span data-toggle="popover" class="language-popover" data-trigger="manual" data-container="body" title="-" data-content="-" data-placement="bottom">
-              Languages<span class="caret"><!----></span> <span class="sr-only">(current)</span>
+              Idiomas<span class="caret"><!----></span> <span class="sr-only">(current)</span>
             </span>
           </a>
           <ul class="dropdown-menu languages">
@@ -173,9 +175,9 @@
 </nav>
 
 
-    <div class="jumbotron jumbo-page titles-howtos-new_filter"><h1>Howto - Creating a new file filter</h1></div>
+    <div class="jumbotron jumbo-page titles-howtos-new_filter"><h1>Guía práctica - Crear un nuevo filtro de archivo (en inglés)</h1></div>
         
-    <div class="untranslated">Sorry this page has not yet been translated.</div><div class="container">
+    <div class="container">
   <p>This HowTo explains how to create a new file filter for use with OmegaT by describing the creation of a rudimentary file filter for the TMX format. Although it might seem strange to want to translate TMX files (the usual reason for creating a file filter), the addition of a TMX filter has the interesting effect that it enables TMX files in any location to be searched for from within any OmegaT project using the "Search Files" function, something not possible in the standard OmegaT build.</p>
   <p>For compiling OmegaT from the source code, see <a href="compiling_from_source.html">Compiling OmegaT from Source HowTo</a>.</p>
   <p>Select an existing filter for a format similar to that for the new filter. In this example, the Help &amp; Manual filter has been selected as a basis. </p>
@@ -246,7 +248,7 @@
   </a>
   <div class="container-fluid">
       <div class="col-sm-offset-3 col-sm-2 footer-column">
-        <h4>Connect</h4>
+        <h4>Conecte con nosotros</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
@@ -259,29 +261,29 @@
         </div>
       </div>
       <div class="col-sm-2 footer-column">
-        <h4>Documentation</h4>
+        <h4>Documentación</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
             <li><a href="/es/documentation#manual"><span class="glyphicon glyphicon-book"></span> Manual</a></li>
-            <li><a href="/es/documentation#tutorials"><span class="glyphicon glyphicon-user"></span> Tutorials</a></li>
-            <li><a href="/es/reviews"><span class="glyphicon glyphicon-heart"></span> Reseñas de OmegaT</a></a></li>
+            <li><a href="/es/documentation#tutorials"><span class="glyphicon glyphicon-user"></span> Tutoriales</a></li>
+            <li><a href="/es/reviews"><span class="glyphicon glyphicon-heart"></span> Reseñas</a></li>
           </ul>
         </div>
       </div>
       <div class="col-sm-2 footer-column">
-        <h4>The OmegaT Project</h4>
+        <h4>El proyecto OmegaT</h4>
         <div class="header-line"><!----></div>
         <div class="footer-links">
           <ul>
             <li>
-            <a href="/es/support"><span class="glyphicon glyphicon-envelope"></span> Contacto y soporte</a>
+            <a href="/es/support"><span class="glyphicon glyphicon-envelope"></span> Soporte</a>
             </li>
             <li>
-            <a href="/es/about"><span class="glyphicon glyphicon-question-sign"></span> Quienes somos</a>
+            <a href="/es/about"><span class="glyphicon glyphicon-question-sign"></span> Sobre OmegaT</a>
             </li>
             <li>
-            <a href="/es/philosophy"><span class="glyphicon glyphicon-console"></span> Philosophy</a>
+            <a href="/es/philosophy"><span class="glyphicon glyphicon-console"></span> Filosofía</a>
             </li>
           </ul>
         </div>
